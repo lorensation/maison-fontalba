@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #0b0b0b;
+}
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  color: var(--fg);
+  background: var(--bg);
+}
+
+.display {
+  @apply uppercase tracking-[.32em];
+}
+
+.prose-narrow {
+  @apply max-w-prose;
+}
