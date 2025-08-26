@@ -14,10 +14,11 @@ html, body, #__next {
 body {
   color: var(--fg);
   background: var(--bg);
+  @apply font-text;
 }
 
 .display {
-  @apply uppercase tracking-[.32em];
+  @apply uppercase tracking-[.32em] font-display;
 }
 
 .prose-narrow {
