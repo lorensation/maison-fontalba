@@ -6,6 +6,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: ['var(--font-display)', 'serif'],
+        text: ['var(--font-text)', 'sans-serif'],
+      },
       letterSpacing: {
         wider: ".2em",
         widest: ".32em"
